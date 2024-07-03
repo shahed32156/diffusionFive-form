@@ -137,7 +137,7 @@ const handleSubmit = (e) => {
 
           <div>
 
-                <input className='w-[310px] h-[50px] pl-2 rounded border focus:outline-none'
+                <input className='w-[300px] h-[50px] pl-2 rounded border focus:outline-none'
                  type="text" placeholder='Enter your name'
                   name='name' value={name}
                   required onChange={handleName} />
@@ -149,7 +149,7 @@ const handleSubmit = (e) => {
           <div>
 
                 
-                <select onChange={handleOpinion} className='w-[310px] h-[50px] pl-2 rounded border focus:outline-none' name="message" id='opinion' required>
+                <select onChange={handleOpinion} className='w-[300px] h-[50px] pl-2 rounded border focus:outline-none' name="message" id='opinion' required>
                     
                     <option disabled selected value={opinion}>Select your opinion</option>
                     <option value="Yes" className='text-[green] font-bold'>Yes</option>
@@ -161,12 +161,12 @@ const handleSubmit = (e) => {
 
           <div>
 
-               <p className='w-[310px]'>If anyone select <span className='text-[green] font-bold'>yes</span>, then he will be given <span className='text-[green] font-bold'>5-7 days</span> for his work and communication. If he can't prove himself, then he will be <span className='text-[red] font-bold'>dropped</span> from the team.</p>
+               <p className='w-[305px]'>If anyone select <span className='text-[green] font-bold'>yes</span>, then he will be given <span className='text-[green] font-bold'>5-7 days</span> for his work and communication. If he can't prove himself, then he will be <span className='text-[red] font-bold'>dropped</span> from the team.</p>
 
           </div>
           
           <div className='flex items-center gap-2'>
-            <input className=' accent-black' type="checkbox" required />
+            <input className='accent-black' type="checkbox" required />
             <label htmlFor="">I agree to the Terms & Conditions</label>
           </div>
            
