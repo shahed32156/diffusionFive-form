@@ -149,7 +149,7 @@ const handleSubmit = (e) => {
           <div>
 
                 
-                <select onChange={handleOpinion} className='w-[300px] h-[50px] pl-2 rounded border focus:outline-none' name="message" id='opinion' required>
+                <select onChange={handleOpinion} className='w-[300px] h-[50px] bg-transparent pl-2 rounded border focus:outline-none' name="message" id='opinion' required>
                     
                     <option disabled selected value={opinion}>Select your opinion</option>
                     <option value="Yes" className='text-[green] font-bold'>Yes</option>
