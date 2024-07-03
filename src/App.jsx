@@ -139,7 +139,7 @@ function App() {
         <div>
           <select 
             onChange={handleOpinion} 
-            className='w-[300px] h-[50px] pl-2 rounded border focus:outline-none' 
+            className='w-[300px] h-[50px] bg-transparent pl-2 rounded border focus:outline-none' 
             name="message" 
             id='opinion' 
             required 
