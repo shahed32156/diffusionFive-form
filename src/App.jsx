@@ -152,7 +152,7 @@ function App() {
         </div>
 
         <div>
-          <p className='w-[313px]'>If anyone select <span className='text-[green] font-bold'>yes</span>, then they will be given <span className='text-[green] font-bold'>5-7 days</span> for their work and communication. If they can't prove themselves, they will be <span className='text-[red] font-bold'>dropped</span> from the team.</p>
+          <p className='w-[313px]'>If anyone select <span className='text-[green] font-bold'>yes</span>, then he will be given <span className='text-[green] font-bold'>5-7 days</span> for their work and communication. If they can't prove themselves, they will be <span className='text-[red] font-bold'>dropped</span> from the team.</p>
         </div>
 
         <div className='flex items-center gap-2'>
