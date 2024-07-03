@@ -161,7 +161,7 @@ const handleSubmit = (e) => {
 
           <div>
 
-               <p className='w-[300px]'>If anyone select <span className='text-[green] font-bold'>yes</span>, then he will be given <span className='text-[green] font-bold'>5-7 days</span> for his work and communication. If he can't prove himself, then he will be <span className='text-[red] font-bold'>dropped</span> from the team.</p>
+               <p className='w-[310px]'>If anyone select <span className='text-[green] font-bold'>yes</span>, then he will be given <span className='text-[green] font-bold'>5-7 days</span> for his work and communication. If he can't prove himself, then he will be <span className='text-[red] font-bold'>dropped</span> from the team.</p>
 
           </div>
           
