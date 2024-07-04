@@ -157,7 +157,7 @@ function App() {
 
         <div className='flex items-center gap-2'>
           <input className='accent-black' type="checkbox" required disabled={!isFormValid} />
-          <label className='w-[400px]'>I agree to the Terms & Conditions</label>
+          <label className='w-[250px]'>I agree to the Terms & Conditions</label>
         </div>
 
         <div>
